@@ -10,7 +10,7 @@
       <overlap>5</overlap>
       <bugtracker></bugtracker>
       <created>2022-08-08 21:38:25.141257+00:00</created>
-      <updated>2022-08-30 13:32:39.833652+00:00</updated>
+      <updated>2022-12-03 19:32:32.939043+00:00</updated>
       <subset>default</subset>
       <start_frame>0</start_frame>
       <stop_frame>22583</stop_frame>
@@ -20,7 +20,7 @@
           <id>508</id>
           <start>0</start>
           <stop>22583</stop>
-          <url>https://app.cvat.ai/?id=508</url>
+          <url>https://app.cvat.ai/api/jobs/508</url>
         </segment>
       </segments>
       <owner>
@@ -99,385 +99,413 @@
           <attributes>
           </attributes>
         </label>
+        <label>
+          <name>c_a1</name>
+          <color>#33ddff</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>c_a8</name>
+          <color>#33ddff</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>c_h1</name>
+          <color>#33ddff</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>c_h8</name>
+          <color>#33ddff</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
       </labels>
       <original_size>
         <width>1280</width>
         <height>720</height>
       </original_size>
     </task>
-    <dumped>2022-08-30 13:33:15.354597+00:00</dumped>
+    <dumped>2022-12-03 19:32:44.710199+00:00</dumped>
     <source>sQcN9Zq3m-w_720.mp4</source>
   </meta>
-  <track id="0" label="corner_h8" source="manual">
-    <box frame="133" outside="0" occluded="0" keyframe="1" xtl="727.75" ytl="487.00" xbr="758.70" ybr="546.59" z_order="0">
-    </box>
-    <box frame="134" outside="1" occluded="0" keyframe="1" xtl="727.75" ytl="487.00" xbr="758.70" ybr="546.59" z_order="0">
-    </box>
+  <track id="0" label="c_a8" source="manual">
+    <points frame="134" outside="0" occluded="0" keyframe="1" points="851.42,429.51" z_order="0">
+    </points>
+    <points frame="135" outside="1" occluded="0" keyframe="1" points="851.42,429.51" z_order="0">
+    </points>
   </track>
-  <track id="1" label="corner_h1" source="manual">
-    <box frame="133" outside="0" occluded="0" keyframe="1" xtl="405.34" ytl="445.87" xbr="435.14" ybr="502.68" z_order="0">
-    </box>
-    <box frame="134" outside="1" occluded="0" keyframe="1" xtl="405.34" ytl="445.87" xbr="435.14" ybr="502.68" z_order="0">
-    </box>
+  <track id="1" label="c_h1" source="manual">
+    <points frame="134" outside="0" occluded="0" keyframe="1" points="387.18,502.19" z_order="0">
+    </points>
+    <points frame="135" outside="1" occluded="0" keyframe="1" points="387.18,502.19" z_order="0">
+    </points>
   </track>
-  <track id="2" label="corner_a1" source="manual">
-    <box frame="133" outside="0" occluded="0" keyframe="1" xtl="548.22" ytl="365.80" xbr="568.50" ybr="406.70" z_order="0">
-    </box>
-    <box frame="134" outside="1" occluded="0" keyframe="1" xtl="548.22" ytl="365.80" xbr="568.50" ybr="406.70" z_order="0">
-    </box>
+  <track id="2" label="c_h8" source="manual">
+    <points frame="134" outside="0" occluded="0" keyframe="1" points="757.20,551.80" z_order="0">
+    </points>
+    <points frame="135" outside="1" occluded="0" keyframe="1" points="757.20,551.80" z_order="0">
+    </points>
   </track>
-  <track id="3" label="corner_a8" source="manual">
-    <box frame="133" outside="0" occluded="0" keyframe="1" xtl="816.00" ytl="389.60" xbr="838.60" ybr="437.33" z_order="0">
-    </box>
-    <box frame="134" outside="1" occluded="0" keyframe="1" xtl="816.00" ytl="389.60" xbr="838.60" ybr="437.33" z_order="0">
-    </box>
-  </track>
-  <track id="4" label="w_p" source="manual">
+  <track id="3" label="w_p" source="manual">
     <box frame="150" outside="0" occluded="0" keyframe="1" xtl="532.00" ytl="410.40" xbr="557.72" ybr="449.30" z_order="0">
     </box>
     <box frame="151" outside="1" occluded="0" keyframe="1" xtl="532.00" ytl="410.40" xbr="557.72" ybr="449.30" z_order="0">
     </box>
   </track>
-  <track id="5" label="w_c" source="manual">
+  <track id="4" label="w_c" source="manual">
     <box frame="167" outside="0" occluded="0" keyframe="1" xtl="611.40" ytl="419.00" xbr="636.00" ybr="458.10" z_order="0">
     </box>
     <box frame="168" outside="1" occluded="0" keyframe="1" xtl="611.40" ytl="419.00" xbr="636.00" ybr="458.10" z_order="0">
     </box>
   </track>
-  <track id="6" label="b_p" source="manual">
+  <track id="5" label="b_p" source="manual">
     <box frame="175" outside="0" occluded="0" keyframe="1" xtl="737.07" ytl="456.33" xbr="770.61" ybr="523.92" z_order="0">
     </box>
     <box frame="176" outside="1" occluded="0" keyframe="1" xtl="737.07" ytl="456.33" xbr="770.61" ybr="523.92" z_order="0">
     </box>
   </track>
-  <track id="7" label="b_c" source="manual">
+  <track id="6" label="b_c" source="manual">
     <box frame="204" outside="0" occluded="0" keyframe="1" xtl="667.41" ytl="436.72" xbr="698.37" ybr="498.10" z_order="0">
     </box>
     <box frame="205" outside="1" occluded="0" keyframe="1" xtl="667.41" ytl="436.72" xbr="698.37" ybr="498.10" z_order="0">
     </box>
   </track>
-  <track id="8" label="w_p" source="manual">
+  <track id="7" label="w_p" source="manual">
     <box frame="205" outside="0" occluded="0" keyframe="1" xtl="552.40" ytl="401.74" xbr="573.56" ybr="436.31" z_order="0">
     </box>
     <box frame="206" outside="1" occluded="0" keyframe="1" xtl="552.40" ytl="401.74" xbr="573.56" ybr="436.31" z_order="0">
     </box>
   </track>
-  <track id="9" label="w_c" source="manual">
+  <track id="8" label="w_c" source="manual">
     <box frame="225" outside="0" occluded="0" keyframe="1" xtl="628.20" ytl="407.31" xbr="648.84" ybr="446.01" z_order="0">
     </box>
     <box frame="226" outside="1" occluded="0" keyframe="1" xtl="628.20" ytl="407.31" xbr="648.84" ybr="446.01" z_order="0">
     </box>
   </track>
-  <track id="10" label="b_p" source="manual">
+  <track id="9" label="b_p" source="manual">
     <box frame="240" outside="0" occluded="0" keyframe="1" xtl="753.07" ytl="419.69" xbr="773.19" ybr="455.81" z_order="0">
     </box>
     <box frame="241" outside="1" occluded="0" keyframe="1" xtl="753.07" ytl="419.69" xbr="773.19" ybr="455.81" z_order="0">
     </box>
   </track>
-  <track id="11" label="b_c" source="manual">
+  <track id="10" label="b_c" source="manual">
     <box frame="255" outside="0" occluded="0" keyframe="1" xtl="661.22" ytl="408.34" xbr="685.99" ybr="449.10" z_order="0">
     </box>
     <box frame="256" outside="1" occluded="0" keyframe="1" xtl="661.22" ytl="408.34" xbr="685.99" ybr="449.10" z_order="0">
     </box>
   </track>
-  <track id="12" label="w_p" source="manual">
+  <track id="11" label="w_p" source="manual">
     <box frame="266" outside="0" occluded="0" keyframe="1" xtl="609.62" ytl="418.66" xbr="635.42" ybr="459.42" z_order="0">
     </box>
     <box frame="267" outside="1" occluded="0" keyframe="1" xtl="609.62" ytl="418.66" xbr="635.42" ybr="459.42" z_order="0">
     </box>
   </track>
-  <track id="13" label="w_c" source="manual">
+  <track id="12" label="w_c" source="manual">
     <box frame="279" outside="0" occluded="0" keyframe="1" xtl="650.39" ytl="422.27" xbr="675.15" ybr="463.55" z_order="0">
     </box>
     <box frame="280" outside="1" occluded="0" keyframe="1" xtl="650.39" ytl="422.27" xbr="675.15" ybr="463.55" z_order="0">
     </box>
   </track>
-  <track id="14" label="b_p" source="manual">
+  <track id="13" label="b_p" source="manual">
     <box frame="290" outside="0" occluded="0" keyframe="1" xtl="727.27" ytl="440.85" xbr="753.58" ybr="485.70" z_order="0">
     </box>
     <box frame="291" outside="1" occluded="0" keyframe="1" xtl="727.27" ytl="440.85" xbr="753.58" ybr="485.70" z_order="0">
     </box>
   </track>
-  <track id="15" label="b_c" source="manual">
+  <track id="14" label="b_c" source="manual">
     <box frame="305" outside="0" occluded="0" keyframe="1" xtl="636.97" ytl="433.62" xbr="662.77" ybr="476.97" z_order="0">
     </box>
     <box frame="306" outside="1" occluded="0" keyframe="1" xtl="636.97" ytl="433.62" xbr="662.77" ybr="476.97" z_order="0">
     </box>
   </track>
-  <track id="16" label="w_p" source="manual">
+  <track id="15" label="w_p" source="manual">
     <box frame="344" outside="0" occluded="0" keyframe="1" xtl="530.16" ytl="368.61" xbr="554.93" ybr="422.27" z_order="0">
     </box>
     <box frame="345" outside="1" occluded="0" keyframe="1" xtl="530.16" ytl="368.61" xbr="554.93" ybr="422.27" z_order="0">
     </box>
   </track>
-  <track id="17" label="w_c" source="manual">
+  <track id="16" label="w_c" source="manual">
     <box frame="365" outside="0" occluded="0" keyframe="1" xtl="579.18" ytl="387.19" xbr="615.30" ybr="441.88" z_order="0">
     </box>
     <box frame="366" outside="1" occluded="0" keyframe="1" xtl="579.18" ytl="387.19" xbr="615.30" ybr="441.88" z_order="0">
     </box>
   </track>
-  <track id="18" label="b_p" source="manual">
+  <track id="17" label="b_p" source="manual">
     <box frame="379" outside="0" occluded="0" keyframe="1" xtl="733.97" ytl="431.04" xbr="758.74" ybr="472.84" z_order="0">
     </box>
     <box frame="380" outside="1" occluded="0" keyframe="1" xtl="733.97" ytl="431.04" xbr="758.74" ybr="472.84" z_order="0">
     </box>
   </track>
-  <track id="19" label="b_c" source="manual">
+  <track id="18" label="b_c" source="manual">
     <box frame="392" outside="0" occluded="0" keyframe="1" xtl="694.76" ytl="424.85" xbr="724.17" ybr="469.23" z_order="0">
     </box>
     <box frame="393" outside="1" occluded="0" keyframe="1" xtl="694.76" ytl="424.85" xbr="724.17" ybr="469.23" z_order="0">
     </box>
   </track>
-  <track id="20" label="w_p" source="manual">
+  <track id="19" label="w_p" source="manual">
     <box frame="395" outside="0" occluded="0" keyframe="1" xtl="513.65" ytl="420.72" xbr="539.45" ybr="463.03" z_order="0">
     </box>
     <box frame="396" outside="1" occluded="0" keyframe="1" xtl="513.65" ytl="420.72" xbr="539.45" ybr="463.03" z_order="0">
     </box>
   </track>
-  <track id="21" label="w_c" source="manual">
+  <track id="20" label="w_c" source="manual">
     <box frame="411" outside="0" occluded="0" keyframe="1" xtl="593.10" ytl="431.04" xbr="619.94" ybr="473.35" z_order="0">
     </box>
     <box frame="412" outside="1" occluded="0" keyframe="1" xtl="593.10" ytl="431.04" xbr="619.94" ybr="473.35" z_order="0">
     </box>
   </track>
-  <track id="22" label="b_p" source="manual">
+  <track id="21" label="b_p" source="manual">
     <box frame="430" outside="0" occluded="0" keyframe="1" xtl="805.30" ytl="397.85" xbr="829.75" ybr="453.06" z_order="0">
     </box>
     <box frame="431" outside="1" occluded="0" keyframe="1" xtl="805.30" ytl="397.85" xbr="829.75" ybr="453.06" z_order="0">
     </box>
   </track>
-  <track id="23" label="b_c" source="manual">
+  <track id="22" label="b_c" source="manual">
     <box frame="449" outside="0" occluded="0" keyframe="1" xtl="733.46" ytl="414.02" xbr="761.32" ybr="473.35" z_order="0">
     </box>
     <box frame="450" outside="1" occluded="0" keyframe="1" xtl="733.46" ytl="414.02" xbr="761.32" ybr="473.35" z_order="0">
     </box>
   </track>
-  <track id="24" label="w_p" source="manual">
+  <track id="23" label="w_p" source="manual">
     <box frame="497" outside="0" occluded="0" keyframe="1" xtl="448.64" ytl="409.37" xbr="481.15" ybr="471.81" z_order="0">
     </box>
     <box frame="498" outside="1" occluded="0" keyframe="1" xtl="448.64" ytl="409.37" xbr="481.15" ybr="471.81" z_order="0">
     </box>
   </track>
-  <track id="25" label="w_c" source="manual">
+  <track id="24" label="w_c" source="manual">
     <box frame="518" outside="0" occluded="0" keyframe="1" xtl="567.31" ytl="393.38" xbr="595.69" ybr="455.30" z_order="0">
     </box>
     <box frame="519" outside="1" occluded="0" keyframe="1" xtl="567.31" ytl="393.38" xbr="595.69" ybr="455.30" z_order="0">
     </box>
   </track>
-  <track id="26" label="b_p" source="manual">
+  <track id="25" label="b_p" source="manual">
     <box frame="620" outside="0" occluded="0" keyframe="1" xtl="752.03" ytl="440.30" xbr="782.48" ybr="512.05" z_order="0">
     </box>
     <box frame="621" outside="1" occluded="0" keyframe="1" xtl="752.03" ytl="440.30" xbr="782.48" ybr="512.05" z_order="0">
     </box>
   </track>
-  <track id="27" label="b_c" source="manual">
+  <track id="26" label="b_c" source="manual">
     <box frame="638" outside="0" occluded="0" keyframe="1" xtl="726.75" ytl="424.34" xbr="756.68" ybr="492.45" z_order="0">
     </box>
     <box frame="639" outside="1" occluded="0" keyframe="1" xtl="726.75" ytl="424.34" xbr="756.68" ybr="492.45" z_order="0">
     </box>
   </track>
-  <track id="28" label="w_p" source="manual">
+  <track id="27" label="w_p" source="manual">
     <box frame="648" outside="0" occluded="0" keyframe="1" xtl="427.63" ytl="425.40" xbr="456.80" ybr="486.50" z_order="0">
     </box>
     <box frame="649" outside="1" occluded="0" keyframe="1" xtl="427.63" ytl="425.40" xbr="456.80" ybr="486.50" z_order="0">
     </box>
   </track>
-  <track id="29" label="w_c" source="manual">
+  <track id="28" label="w_c" source="manual">
     <box frame="680" outside="0" occluded="0" keyframe="1" xtl="514.00" ytl="408.99" xbr="542.80" ybr="463.00" z_order="0">
     </box>
     <box frame="681" outside="1" occluded="0" keyframe="1" xtl="514.00" ytl="408.99" xbr="542.80" ybr="463.00" z_order="0">
     </box>
   </track>
-  <track id="30" label="b_p" source="manual">
+  <track id="29" label="b_p" source="manual">
     <box frame="740" outside="0" occluded="0" keyframe="1" xtl="692.15" ytl="473.70" xbr="716.90" ybr="519.30" z_order="0">
     </box>
     <box frame="741" outside="1" occluded="0" keyframe="1" xtl="692.15" ytl="473.70" xbr="716.90" ybr="519.30" z_order="0">
     </box>
   </track>
-  <track id="31" label="b_c" source="manual">
+  <track id="30" label="b_c" source="manual">
     <box frame="755" outside="0" occluded="0" keyframe="1" xtl="647.00" ytl="466.60" xbr="673.00" ybr="511.60" z_order="0">
     </box>
     <box frame="756" outside="1" occluded="0" keyframe="1" xtl="647.00" ytl="466.60" xbr="673.00" ybr="511.60" z_order="0">
     </box>
   </track>
-  <track id="32" label="w_p" source="manual">
+  <track id="31" label="w_p" source="manual">
     <box frame="922" outside="0" occluded="0" keyframe="1" xtl="449.33" ytl="463.30" xbr="477.72" ybr="506.57" z_order="0">
     </box>
     <box frame="923" outside="1" occluded="0" keyframe="1" xtl="449.33" ytl="463.30" xbr="477.72" ybr="506.57" z_order="0">
     </box>
   </track>
-  <track id="33" label="w_c" source="manual">
+  <track id="32" label="w_c" source="manual">
     <box frame="935" outside="0" occluded="0" keyframe="1" xtl="538.70" ytl="475.10" xbr="565.90" ybr="519.10" z_order="0">
     </box>
     <box frame="936" outside="1" occluded="0" keyframe="1" xtl="538.70" ytl="475.10" xbr="565.90" ybr="519.10" z_order="0">
     </box>
   </track>
-  <track id="34" label="b_p" source="manual">
+  <track id="33" label="b_p" source="manual">
     <box frame="1196" outside="0" occluded="0" keyframe="1" xtl="777.60" ytl="398.30" xbr="798.20" ybr="431.30" z_order="0">
     </box>
     <box frame="1197" outside="1" occluded="0" keyframe="1" xtl="777.60" ytl="398.30" xbr="798.20" ybr="431.30" z_order="0">
     </box>
   </track>
-  <track id="35" label="b_c" source="manual">
+  <track id="34" label="b_c" source="manual">
     <box frame="1210" outside="0" occluded="0" keyframe="1" xtl="736.20" ytl="391.80" xbr="759.83" ybr="427.88" z_order="0">
     </box>
     <box frame="1211" outside="1" occluded="0" keyframe="1" xtl="736.20" ytl="391.80" xbr="759.83" ybr="427.88" z_order="0">
     </box>
   </track>
-  <track id="36" label="w_p" source="manual">
+  <track id="35" label="w_p" source="manual">
     <box frame="1734" outside="0" occluded="0" keyframe="1" xtl="586.93" ytl="378.52" xbr="606.30" ybr="412.92" z_order="0">
     </box>
     <box frame="1735" outside="1" occluded="0" keyframe="1" xtl="586.93" ytl="378.52" xbr="606.30" ybr="412.92" z_order="0">
     </box>
   </track>
-  <track id="37" label="w_c" source="manual">
+  <track id="36" label="w_c" source="manual">
     <box frame="1748" outside="0" occluded="0" keyframe="1" xtl="666.05" ytl="386.26" xbr="687.54" ybr="421.90" z_order="0">
     </box>
     <box frame="1749" outside="1" occluded="0" keyframe="1" xtl="666.05" ytl="386.26" xbr="687.54" ybr="421.90" z_order="0">
     </box>
   </track>
-  <track id="38" label="b_p" source="manual">
+  <track id="37" label="b_p" source="manual">
     <box frame="3386" outside="0" occluded="0" keyframe="1" xtl="761.12" ytl="406.38" xbr="783.90" ybr="444.65" z_order="0">
     </box>
     <box frame="3387" outside="1" occluded="0" keyframe="1" xtl="761.12" ytl="406.38" xbr="783.90" ybr="444.65" z_order="0">
     </box>
   </track>
-  <track id="39" label="b_c" source="manual">
+  <track id="38" label="b_c" source="manual">
     <box frame="3408" outside="0" occluded="0" keyframe="1" xtl="718.80" ytl="402.51" xbr="741.60" ybr="441.90" z_order="0">
     </box>
     <box frame="3409" outside="1" occluded="0" keyframe="1" xtl="718.80" ytl="402.51" xbr="741.60" ybr="441.90" z_order="0">
     </box>
   </track>
-  <track id="40" label="w_p" source="manual">
+  <track id="39" label="w_p" source="manual">
     <box frame="4073" outside="0" occluded="0" keyframe="1" xtl="471.74" ytl="448.40" xbr="498.40" ybr="490.18" z_order="0">
     </box>
     <box frame="4074" outside="1" occluded="0" keyframe="1" xtl="471.74" ytl="448.40" xbr="498.40" ybr="490.18" z_order="0">
     </box>
   </track>
-  <track id="41" label="w_c" source="manual">
+  <track id="40" label="w_c" source="manual">
     <box frame="4088" outside="0" occluded="0" keyframe="1" xtl="512.59" ytl="452.90" xbr="540.96" ybr="495.00" z_order="0">
     </box>
     <box frame="4089" outside="1" occluded="0" keyframe="1" xtl="512.59" ytl="452.90" xbr="540.96" ybr="495.00" z_order="0">
     </box>
   </track>
-  <track id="42" label="b_p" source="manual">
+  <track id="41" label="b_p" source="manual">
     <box frame="4643" outside="0" occluded="0" keyframe="1" xtl="814.86" ytl="389.14" xbr="840.23" ybr="437.73" z_order="0">
     </box>
     <box frame="4644" outside="1" occluded="0" keyframe="1" xtl="814.86" ytl="389.14" xbr="840.23" ybr="437.73" z_order="0">
     </box>
   </track>
-  <track id="43" label="b_c" source="manual">
+  <track id="42" label="b_c" source="manual">
     <box frame="4668" outside="0" occluded="0" keyframe="1" xtl="805.40" ytl="401.18" xbr="832.06" ybr="451.06" z_order="0">
     </box>
     <box frame="4669" outside="1" occluded="0" keyframe="1" xtl="805.40" ytl="401.18" xbr="832.06" ybr="451.06" z_order="0">
     </box>
   </track>
-  <track id="44" label="w_p" source="manual">
+  <track id="43" label="w_p" source="manual">
     <box frame="5148" outside="0" occluded="0" keyframe="1" xtl="492.38" ytl="435.00" xbr="518.70" ybr="475.99" z_order="0">
     </box>
     <box frame="5149" outside="1" occluded="0" keyframe="1" xtl="492.38" ytl="435.00" xbr="518.70" ybr="475.99" z_order="0">
     </box>
   </track>
-  <track id="45" label="w_c" source="manual">
+  <track id="44" label="w_c" source="manual">
     <box frame="5163" outside="0" occluded="0" keyframe="1" xtl="531.08" ytl="439.02" xbr="556.60" ybr="480.80" z_order="0">
     </box>
     <box frame="5164" outside="1" occluded="0" keyframe="1" xtl="531.08" ytl="439.02" xbr="556.60" ybr="480.80" z_order="0">
     </box>
   </track>
-  <track id="46" label="b_p" source="manual">
+  <track id="45" label="b_p" source="manual">
     <box frame="5391" outside="0" occluded="0" keyframe="1" xtl="667.40" ytl="433.86" xbr="696.62" ybr="497.20" z_order="0">
     </box>
     <box frame="5392" outside="1" occluded="0" keyframe="1" xtl="667.40" ytl="433.86" xbr="696.62" ybr="497.20" z_order="0">
     </box>
   </track>
-  <track id="47" label="b_c" source="manual">
+  <track id="46" label="b_c" source="manual">
     <box frame="5409" outside="0" occluded="0" keyframe="1" xtl="579.23" ytl="462.60" xbr="610.19" ybr="525.87" z_order="0">
     </box>
     <box frame="5410" outside="1" occluded="0" keyframe="1" xtl="579.23" ytl="462.60" xbr="610.19" ybr="525.87" z_order="0">
     </box>
   </track>
-  <track id="48" label="w_p" source="manual">
+  <track id="47" label="w_p" source="manual">
     <box frame="5513" outside="0" occluded="0" keyframe="1" xtl="513.02" ytl="375.81" xbr="537.52" ybr="431.80" z_order="0">
     </box>
     <box frame="5514" outside="1" occluded="0" keyframe="1" xtl="513.02" ytl="375.81" xbr="537.52" ybr="431.80" z_order="0">
     </box>
   </track>
-  <track id="49" label="w_c" source="manual">
+  <track id="48" label="w_c" source="manual">
     <box frame="5541" outside="0" occluded="0" keyframe="1" xtl="623.40" ytl="460.51" xbr="657.06" ybr="531.03" z_order="0">
     </box>
     <box frame="5542" outside="1" occluded="0" keyframe="1" xtl="623.40" ytl="460.51" xbr="657.06" ybr="531.03" z_order="0">
     </box>
   </track>
-  <track id="50" label="b_p" source="manual">
+  <track id="49" label="b_p" source="manual">
     <box frame="5708" outside="0" occluded="0" keyframe="1" xtl="727.10" ytl="425.20" xbr="753.00" ybr="485.60" z_order="0">
     </box>
     <box frame="5709" outside="1" occluded="0" keyframe="1" xtl="727.10" ytl="425.20" xbr="753.00" ybr="485.60" z_order="0">
     </box>
   </track>
-  <track id="51" label="b_c" source="manual">
+  <track id="50" label="b_c" source="manual">
     <box frame="5729" outside="0" occluded="0" keyframe="1" xtl="758.50" ytl="442.80" xbr="788.70" ybr="509.10" z_order="0">
     </box>
     <box frame="5730" outside="1" occluded="0" keyframe="1" xtl="758.50" ytl="442.80" xbr="788.70" ybr="509.10" z_order="0">
     </box>
   </track>
-  <track id="52" label="w_p" source="manual">
+  <track id="51" label="w_p" source="manual">
     <box frame="5750" outside="0" occluded="0" keyframe="1" xtl="624.60" ytl="459.66" xbr="656.63" ybr="531.03" z_order="0">
     </box>
     <box frame="5751" outside="1" occluded="0" keyframe="1" xtl="624.60" ytl="459.66" xbr="656.63" ybr="531.03" z_order="0">
     </box>
   </track>
-  <track id="53" label="w_c" source="manual">
+  <track id="52" label="w_c" source="manual">
     <box frame="5771" outside="0" occluded="0" keyframe="1" xtl="548.16" ytl="407.16" xbr="577.91" ybr="467.19" z_order="0">
     </box>
     <box frame="5772" outside="1" occluded="0" keyframe="1" xtl="548.16" ytl="407.16" xbr="577.91" ybr="467.19" z_order="0">
     </box>
   </track>
-  <track id="54" label="b_p" source="manual">
+  <track id="53" label="b_p" source="manual">
     <box frame="5926" outside="0" occluded="0" keyframe="1" xtl="759.60" ytl="442.31" xbr="788.00" ybr="509.92" z_order="0">
     </box>
     <box frame="5927" outside="1" occluded="0" keyframe="1" xtl="759.60" ytl="442.31" xbr="788.00" ybr="509.92" z_order="0">
     </box>
   </track>
-  <track id="55" label="b_c" source="manual">
+  <track id="54" label="b_c" source="manual">
     <box frame="5941" outside="0" occluded="0" keyframe="1" xtl="725.09" ytl="422.20" xbr="749.97" ybr="485.10" z_order="0">
     </box>
     <box frame="5942" outside="1" occluded="0" keyframe="1" xtl="725.09" ytl="422.20" xbr="749.97" ybr="485.10" z_order="0">
     </box>
   </track>
-  <track id="56" label="w_p" source="manual">
+  <track id="55" label="w_p" source="manual">
     <box frame="7434" outside="0" occluded="0" keyframe="1" xtl="467.94" ytl="378.47" xbr="500.85" ybr="458.70" z_order="0">
     </box>
     <box frame="7435" outside="1" occluded="0" keyframe="1" xtl="467.94" ytl="378.47" xbr="500.85" ybr="458.70" z_order="0">
     </box>
   </track>
-  <track id="57" label="w_c" source="manual">
+  <track id="56" label="w_c" source="manual">
     <box frame="7451" outside="0" occluded="0" keyframe="1" xtl="526.99" ytl="371.26" xbr="555.84" ybr="443.38" z_order="0">
     </box>
     <box frame="7452" outside="1" occluded="0" keyframe="1" xtl="526.99" ytl="371.26" xbr="555.84" ybr="443.38" z_order="0">
     </box>
   </track>
-  <track id="58" label="b_p" source="manual">
+  <track id="57" label="b_p" source="manual">
     <box frame="8531" outside="0" occluded="0" keyframe="1" xtl="579.83" ytl="462.70" xbr="610.79" ybr="525.60" z_order="0">
     </box>
     <box frame="8532" outside="1" occluded="0" keyframe="1" xtl="579.83" ytl="462.70" xbr="610.79" ybr="525.60" z_order="0">
     </box>
   </track>
-  <track id="59" label="b_c" source="manual">
+  <track id="58" label="b_c" source="manual">
     <box frame="8552" outside="0" occluded="0" keyframe="1" xtl="695.10" ytl="455.00" xbr="724.31" ybr="519.08" z_order="0">
     </box>
     <box frame="8553" outside="1" occluded="0" keyframe="1" xtl="695.10" ytl="455.00" xbr="724.31" ybr="519.08" z_order="0">
     </box>
   </track>
-  <track id="60" label="w_p" source="manual">
+  <track id="59" label="w_p" source="manual">
     <box frame="9185" outside="0" occluded="0" keyframe="1" xtl="547.84" ytl="405.95" xbr="578.80" ybr="467.10" z_order="0">
     </box>
     <box frame="9186" outside="1" occluded="0" keyframe="1" xtl="547.84" ytl="405.95" xbr="578.80" ybr="467.10" z_order="0">
     </box>
   </track>
-  <track id="61" label="w_c" source="manual">
+  <track id="60" label="w_c" source="manual">
     <box frame="9205" outside="0" occluded="0" keyframe="1" xtl="627.13" ytl="460.60" xbr="661.96" ybr="531.55" z_order="0">
     </box>
     <box frame="9206" outside="1" occluded="0" keyframe="1" xtl="627.13" ytl="460.60" xbr="661.96" ybr="531.55" z_order="0">
+    </box>
+  </track>
+  <track id="61" label="b_p" source="manual">
+    <box frame="9223" outside="0" occluded="0" keyframe="1" xtl="767.31" ytl="407.28" xbr="800.42" ybr="492.85" z_order="0">
+    </box>
+    <box frame="9224" outside="1" occluded="0" keyframe="1" xtl="767.31" ytl="407.28" xbr="800.42" ybr="492.85" z_order="0">
     </box>
   </track>
   <track id="62" label="b_p" source="manual">
@@ -486,359 +514,359 @@
     <box frame="9224" outside="1" occluded="0" keyframe="1" xtl="727.32" ytl="484.25" xbr="758.28" ybr="545.31" z_order="0">
     </box>
   </track>
-  <track id="63" label="b_p" source="manual">
-    <box frame="9223" outside="0" occluded="0" keyframe="1" xtl="767.31" ytl="407.28" xbr="800.42" ybr="492.85" z_order="0">
-    </box>
-    <box frame="9224" outside="1" occluded="0" keyframe="1" xtl="767.31" ytl="407.28" xbr="800.42" ybr="492.85" z_order="0">
-    </box>
-  </track>
-  <track id="64" label="b_c" source="manual">
+  <track id="63" label="b_c" source="manual">
     <box frame="9258" outside="0" occluded="0" keyframe="1" xtl="740.22" ytl="431.79" xbr="774.62" ybr="525.10" z_order="0">
     </box>
     <box frame="9259" outside="1" occluded="0" keyframe="1" xtl="740.22" ytl="431.79" xbr="774.62" ybr="525.10" z_order="0">
     </box>
   </track>
-  <track id="65" label="b_c" source="manual">
+  <track id="64" label="b_c" source="manual">
     <box frame="9258" outside="0" occluded="0" keyframe="1" xtl="759.14" ytl="449.85" xbr="786.66" ybr="507.47" z_order="0">
     </box>
     <box frame="9259" outside="1" occluded="0" keyframe="1" xtl="759.14" ytl="449.85" xbr="786.66" ybr="507.47" z_order="0">
     </box>
   </track>
-  <track id="66" label="w_p" source="manual">
+  <track id="65" label="w_p" source="manual">
     <box frame="9518" outside="0" occluded="0" keyframe="1" xtl="525.66" ytl="370.73" xbr="557.05" ybr="448.99" z_order="0">
     </box>
     <box frame="9519" outside="1" occluded="0" keyframe="1" xtl="525.66" ytl="370.73" xbr="557.05" ybr="448.99" z_order="0">
     </box>
   </track>
-  <track id="67" label="w_c" source="manual">
+  <track id="66" label="w_c" source="manual">
     <box frame="9534" outside="0" occluded="0" keyframe="1" xtl="544.58" ytl="360.42" xbr="574.25" ybr="437.38" z_order="0">
     </box>
     <box frame="9535" outside="1" occluded="0" keyframe="1" xtl="544.58" ytl="360.42" xbr="574.25" ybr="437.38" z_order="0">
     </box>
   </track>
-  <track id="68" label="b_p" source="manual">
+  <track id="67" label="b_p" source="manual">
     <box frame="9554" outside="0" occluded="0" keyframe="1" xtl="711.41" ytl="458.90" xbr="737.21" ybr="501.88" z_order="0">
     </box>
     <box frame="9555" outside="1" occluded="0" keyframe="1" xtl="711.41" ytl="458.90" xbr="737.21" ybr="501.88" z_order="0">
     </box>
   </track>
-  <track id="69" label="b_c" source="manual">
+  <track id="68" label="b_c" source="manual">
     <box frame="9582" outside="0" occluded="0" keyframe="1" xtl="621.30" ytl="451.10" xbr="645.50" ybr="492.38" z_order="0">
     </box>
     <box frame="9583" outside="1" occluded="0" keyframe="1" xtl="621.30" ytl="451.10" xbr="645.50" ybr="492.38" z_order="0">
     </box>
   </track>
-  <track id="70" label="w_p" source="manual">
+  <track id="69" label="w_p" source="manual">
     <box frame="9619" outside="0" occluded="0" keyframe="1" xtl="535.55" ytl="472.60" xbr="565.65" ybr="519.60" z_order="0">
     </box>
     <box frame="9620" outside="1" occluded="0" keyframe="1" xtl="535.55" ytl="472.60" xbr="565.65" ybr="519.60" z_order="0">
     </box>
   </track>
-  <track id="71" label="w_c" source="manual">
+  <track id="70" label="w_c" source="manual">
     <box frame="9660" outside="0" occluded="0" keyframe="1" xtl="582.42" ytl="478.10" xbr="609.50" ybr="523.81" z_order="0">
     </box>
     <box frame="9661" outside="1" occluded="0" keyframe="1" xtl="582.42" ytl="478.10" xbr="609.50" ybr="523.81" z_order="0">
     </box>
   </track>
-  <track id="72" label="b_p" source="manual">
+  <track id="71" label="b_p" source="manual">
     <box frame="10082" outside="0" occluded="0" keyframe="1" xtl="734.80" ytl="414.20" xbr="760.10" ybr="471.80" z_order="0">
     </box>
     <box frame="10083" outside="1" occluded="0" keyframe="1" xtl="734.80" ytl="414.20" xbr="760.10" ybr="471.80" z_order="0">
     </box>
   </track>
-  <track id="73" label="b_c" source="manual">
+  <track id="72" label="b_c" source="manual">
     <box frame="10105" outside="0" occluded="0" keyframe="1" xtl="666.10" ytl="433.94" xbr="692.92" ybr="495.10" z_order="0">
     </box>
     <box frame="10106" outside="1" occluded="0" keyframe="1" xtl="666.10" ytl="433.94" xbr="692.92" ybr="495.10" z_order="0">
     </box>
   </track>
-  <track id="74" label="w_p" source="manual">
+  <track id="73" label="w_p" source="manual">
     <box frame="10144" outside="0" occluded="0" keyframe="1" xtl="581.98" ytl="476.94" xbr="609.07" ybr="524.24" z_order="0">
     </box>
     <box frame="10145" outside="1" occluded="0" keyframe="1" xtl="581.98" ytl="476.94" xbr="609.07" ybr="524.24" z_order="0">
     </box>
   </track>
-  <track id="75" label="w_cap" source="manual">
+  <track id="74" label="w_cap" source="manual">
     <box frame="10162" outside="0" occluded="0" keyframe="1" xtl="650.20" ytl="465.80" xbr="677.01" ybr="512.20" z_order="0">
     </box>
     <box frame="10163" outside="1" occluded="0" keyframe="1" xtl="650.20" ytl="465.80" xbr="677.01" ybr="512.20" z_order="0">
     </box>
   </track>
-  <track id="76" label="b_p" source="manual">
+  <track id="75" label="b_p" source="manual">
     <box frame="10178" outside="0" occluded="0" keyframe="1" xtl="675.84" ytl="487.33" xbr="702.60" ybr="534.31" z_order="0">
     </box>
     <box frame="10179" outside="1" occluded="0" keyframe="1" xtl="675.84" ytl="487.33" xbr="702.60" ybr="534.31" z_order="0">
     </box>
   </track>
-  <track id="77" label="b_cap" source="manual">
+  <track id="76" label="b_cap" source="manual">
     <box frame="10205" outside="0" occluded="0" keyframe="1" xtl="649.49" ytl="467.05" xbr="675.29" ybr="511.34" z_order="0">
     </box>
     <box frame="10206" outside="1" occluded="0" keyframe="1" xtl="649.49" ytl="467.05" xbr="675.29" ybr="511.34" z_order="0">
     </box>
   </track>
-  <track id="78" label="w_p" source="manual">
+  <track id="77" label="w_p" source="manual">
     <box frame="10416" outside="0" occluded="0" keyframe="1" xtl="491.52" ytl="377.57" xbr="518.70" ybr="445.08" z_order="0">
     </box>
     <box frame="10417" outside="1" occluded="0" keyframe="1" xtl="491.52" ytl="377.57" xbr="518.70" ybr="445.08" z_order="0">
     </box>
   </track>
-  <track id="79" label="w_c" source="manual">
+  <track id="78" label="w_c" source="manual">
     <box frame="10429" outside="0" occluded="0" keyframe="1" xtl="532.54" ytl="382.34" xbr="561.35" ybr="449.85" z_order="0">
     </box>
     <box frame="10430" outside="1" occluded="0" keyframe="1" xtl="532.54" ytl="382.34" xbr="561.35" ybr="449.85" z_order="0">
     </box>
   </track>
-  <track id="80" label="b_p" source="manual">
+  <track id="79" label="b_p" source="manual">
     <box frame="11464" outside="0" occluded="0" keyframe="1" xtl="757.60" ytl="453.20" xbr="786.23" ybr="509.19" z_order="0">
     </box>
     <box frame="11465" outside="1" occluded="0" keyframe="1" xtl="757.60" ytl="453.20" xbr="786.23" ybr="509.19" z_order="0">
     </box>
   </track>
-  <track id="81" label="b_c" source="manual">
+  <track id="80" label="b_c" source="manual">
     <box frame="11477" outside="0" occluded="0" keyframe="1" xtl="708.83" ytl="446.80" xbr="736.35" ybr="501.45" z_order="0">
     </box>
     <box frame="11478" outside="1" occluded="0" keyframe="1" xtl="708.83" ytl="446.80" xbr="736.35" ybr="501.45" z_order="0">
     </box>
   </track>
-  <track id="82" label="w_p" source="manual">
+  <track id="81" label="w_p" source="manual">
     <box frame="11486" outside="0" occluded="0" keyframe="1" xtl="403.97" ytl="445.12" xbr="435.36" ybr="501.88" z_order="0">
     </box>
     <box frame="11487" outside="1" occluded="0" keyframe="1" xtl="403.97" ytl="445.12" xbr="435.36" ybr="501.88" z_order="0">
     </box>
   </track>
-  <track id="83" label="w_c" source="manual">
+  <track id="82" label="w_c" source="manual">
     <box frame="11498" outside="0" occluded="0" keyframe="1" xtl="437.94" ytl="450.20" xbr="471.05" ybr="507.47" z_order="0">
     </box>
     <box frame="11499" outside="1" occluded="0" keyframe="1" xtl="437.94" ytl="450.20" xbr="471.05" ybr="507.47" z_order="0">
     </box>
   </track>
-  <track id="84" label="b_p" source="manual">
+  <track id="83" label="b_p" source="manual">
     <box frame="13004" outside="0" occluded="0" keyframe="1" xtl="717.20" ytl="403.02" xbr="740.41" ybr="440.91" z_order="0">
     </box>
     <box frame="13005" outside="1" occluded="0" keyframe="1" xtl="717.20" ytl="403.02" xbr="740.41" ybr="440.91" z_order="0">
     </box>
   </track>
-  <track id="85" label="b_c" source="manual">
+  <track id="84" label="b_c" source="manual">
     <box frame="13016" outside="0" occluded="0" keyframe="1" xtl="680.73" ytl="397.81" xbr="702.04" ybr="434.75" z_order="0">
     </box>
     <box frame="13017" outside="1" occluded="0" keyframe="1" xtl="680.73" ytl="397.81" xbr="702.04" ybr="434.75" z_order="0">
     </box>
   </track>
-  <track id="86" label="w_p" source="manual">
+  <track id="85" label="w_p" source="manual">
     <box frame="13314" outside="0" occluded="0" keyframe="1" xtl="547.15" ytl="363.10" xbr="572.30" ybr="407.50" z_order="0">
     </box>
     <box frame="13315" outside="1" occluded="0" keyframe="1" xtl="547.15" ytl="363.10" xbr="572.30" ybr="407.50" z_order="0">
     </box>
   </track>
-  <track id="87" label="w_c" source="manual">
+  <track id="86" label="w_c" source="manual">
     <box frame="13335" outside="0" occluded="0" keyframe="1" xtl="396.53" ytl="442.80" xbr="428.26" ybr="500.12" z_order="0">
     </box>
     <box frame="13336" outside="1" occluded="0" keyframe="1" xtl="396.53" ytl="442.80" xbr="428.26" ybr="500.12" z_order="0">
     </box>
   </track>
-  <track id="88" label="b_p" source="manual">
+  <track id="87" label="b_p" source="manual">
     <box frame="14293" outside="0" occluded="0" keyframe="1" xtl="680.25" ytl="397.33" xbr="703.94" ybr="434.40" z_order="0">
     </box>
     <box frame="14294" outside="1" occluded="0" keyframe="1" xtl="680.25" ytl="397.33" xbr="703.94" ybr="434.40" z_order="0">
     </box>
   </track>
-  <track id="89" label="b_c" source="manual">
+  <track id="88" label="b_c" source="manual">
     <box frame="14305" outside="0" occluded="0" keyframe="1" xtl="639.04" ytl="396.38" xbr="660.83" ybr="432.40" z_order="0">
     </box>
     <box frame="14306" outside="1" occluded="0" keyframe="1" xtl="639.04" ytl="396.38" xbr="660.83" ybr="432.40" z_order="0">
     </box>
   </track>
-  <track id="90" label="w_p" source="manual">
+  <track id="89" label="w_p" source="manual">
     <box frame="14601" outside="0" occluded="0" keyframe="1" xtl="628.56" ytl="460.20" xbr="661.71" ybr="530.45" z_order="0">
     </box>
     <box frame="14602" outside="1" occluded="0" keyframe="1" xtl="628.56" ytl="460.20" xbr="661.71" ybr="530.45" z_order="0">
     </box>
   </track>
-  <track id="91" label="w_cap" source="manual">
+  <track id="90" label="w_cap" source="manual">
     <box frame="14624" outside="0" occluded="0" keyframe="1" xtl="690.67" ytl="450.86" xbr="722.88" ybr="518.30" z_order="0">
     </box>
     <box frame="14625" outside="1" occluded="0" keyframe="1" xtl="690.67" ytl="450.86" xbr="722.88" ybr="518.30" z_order="0">
     </box>
   </track>
-  <track id="92" label="b_p" source="manual">
+  <track id="91" label="b_p" source="manual">
     <box frame="14989" outside="0" occluded="0" keyframe="1" xtl="665.57" ytl="434.90" xbr="693.99" ybr="498.10" z_order="0">
     </box>
     <box frame="14990" outside="1" occluded="0" keyframe="1" xtl="665.57" ytl="434.90" xbr="693.99" ybr="498.10" z_order="0">
     </box>
   </track>
-  <track id="93" label="b_c" source="manual">
+  <track id="92" label="b_c" source="manual">
     <box frame="15004" outside="0" occluded="0" keyframe="1" xtl="586.94" ytl="458.10" xbr="618.20" ybr="521.70" z_order="0">
     </box>
     <box frame="15005" outside="1" occluded="0" keyframe="1" xtl="586.94" ytl="458.10" xbr="618.20" ybr="521.70" z_order="0">
     </box>
   </track>
-  <track id="94" label="w_p" source="manual">
+  <track id="93" label="w_p" source="manual">
     <box frame="15980" outside="0" occluded="0" keyframe="1" xtl="585.20" ytl="387.30" xbr="611.10" ybr="440.40" z_order="0">
     </box>
     <box frame="15981" outside="1" occluded="0" keyframe="1" xtl="585.20" ytl="387.30" xbr="611.10" ybr="440.40" z_order="0">
     </box>
   </track>
-  <track id="95" label="w_c" source="manual">
+  <track id="94" label="w_c" source="manual">
     <box frame="16002" outside="0" occluded="0" keyframe="1" xtl="485.58" ytl="389.75" xbr="512.90" ybr="444.70" z_order="0">
     </box>
     <box frame="16003" outside="1" occluded="0" keyframe="1" xtl="485.58" ytl="389.75" xbr="512.90" ybr="444.70" z_order="0">
     </box>
   </track>
-  <track id="96" label="b_p" source="manual">
+  <track id="95" label="b_p" source="manual">
     <box frame="17054" outside="0" occluded="0" keyframe="1" xtl="725.20" ytl="421.96" xbr="746.40" ybr="485.00" z_order="0">
     </box>
     <box frame="17055" outside="1" occluded="0" keyframe="1" xtl="725.20" ytl="421.96" xbr="746.40" ybr="485.00" z_order="0">
     </box>
   </track>
-  <track id="97" label="b_c" source="manual">
+  <track id="96" label="b_c" source="manual">
     <box frame="17073" outside="0" occluded="0" keyframe="1" xtl="603.52" ytl="441.90" xbr="628.90" ybr="506.70" z_order="0">
     </box>
     <box frame="17074" outside="1" occluded="0" keyframe="1" xtl="603.52" ytl="441.90" xbr="628.90" ybr="506.70" z_order="0">
     </box>
   </track>
-  <track id="98" label="w_p" source="manual">
+  <track id="97" label="w_p" source="manual">
     <box frame="17169" outside="0" occluded="0" keyframe="1" xtl="532.00" ytl="439.20" xbr="555.20" ybr="481.03" z_order="0">
     </box>
     <box frame="17170" outside="1" occluded="0" keyframe="1" xtl="532.00" ytl="439.20" xbr="555.20" ybr="481.03" z_order="0">
     </box>
   </track>
-  <track id="99" label="w_c" source="manual">
+  <track id="98" label="w_c" source="manual">
     <box frame="17185" outside="0" occluded="0" keyframe="1" xtl="577.60" ytl="444.00" xbr="601.00" ybr="484.90" z_order="0">
     </box>
     <box frame="17186" outside="1" occluded="0" keyframe="1" xtl="577.60" ytl="444.00" xbr="601.00" ybr="484.90" z_order="0">
     </box>
   </track>
-  <track id="100" label="b_p" source="manual">
+  <track id="99" label="b_p" source="manual">
     <box frame="17541" outside="0" occluded="0" keyframe="1" xtl="638.85" ytl="434.60" xbr="660.60" ybr="475.37" z_order="0">
     </box>
     <box frame="17542" outside="1" occluded="0" keyframe="1" xtl="638.85" ytl="434.60" xbr="660.60" ybr="475.37" z_order="0">
     </box>
   </track>
-  <track id="101" label="b_cap" source="manual">
+  <track id="100" label="b_cap" source="manual">
     <box frame="17561" outside="0" occluded="0" keyframe="1" xtl="569.89" ytl="443.75" xbr="595.94" ybr="485.43" z_order="0">
     </box>
     <box frame="17562" outside="1" occluded="0" keyframe="1" xtl="569.89" ytl="443.75" xbr="595.94" ybr="485.43" z_order="0">
     </box>
   </track>
-  <track id="102" label="w_p" source="manual">
+  <track id="101" label="w_p" source="manual">
     <box frame="17665" outside="0" occluded="0" keyframe="1" xtl="513.00" ytl="453.60" xbr="540.00" ybr="495.20" z_order="0">
     </box>
     <box frame="17666" outside="1" occluded="0" keyframe="1" xtl="513.00" ytl="453.60" xbr="540.00" ybr="495.20" z_order="0">
     </box>
   </track>
-  <track id="103" label="w_cap" source="manual">
+  <track id="102" label="w_cap" source="manual">
     <box frame="17683" outside="0" occluded="0" keyframe="1" xtl="577.20" ytl="444.40" xbr="601.20" ybr="485.40" z_order="0">
     </box>
     <box frame="17684" outside="1" occluded="0" keyframe="1" xtl="577.20" ytl="444.40" xbr="601.20" ybr="485.40" z_order="0">
     </box>
   </track>
-  <track id="104" label="b_p" source="manual">
+  <track id="103" label="b_p" source="manual">
     <box frame="18187" outside="0" occluded="0" keyframe="1" xtl="776.30" ytl="404.80" xbr="808.15" ybr="475.80" z_order="0">
     </box>
     <box frame="18188" outside="1" occluded="0" keyframe="1" xtl="776.30" ytl="404.80" xbr="808.15" ybr="475.80" z_order="0">
     </box>
   </track>
-  <track id="105" label="b_c" source="manual">
+  <track id="104" label="b_c" source="manual">
     <box frame="18201" outside="0" occluded="0" keyframe="1" xtl="768.60" ytl="419.80" xbr="799.00" ybr="491.90" z_order="0">
     </box>
     <box frame="18202" outside="1" occluded="0" keyframe="1" xtl="768.60" ytl="419.80" xbr="799.00" ybr="491.90" z_order="0">
     </box>
   </track>
-  <track id="106" label="w_p" source="manual">
+  <track id="105" label="w_p" source="manual">
     <box frame="19013" outside="0" occluded="0" keyframe="1" xtl="595.75" ytl="429.37" xbr="616.30" ybr="469.50" z_order="0">
     </box>
     <box frame="19014" outside="1" occluded="0" keyframe="1" xtl="595.75" ytl="429.37" xbr="616.30" ybr="469.50" z_order="0">
     </box>
   </track>
-  <track id="107" label="w_cap" source="manual">
+  <track id="106" label="w_cap" source="manual">
     <box frame="19030" outside="0" occluded="0" keyframe="1" xtl="620.10" ytl="447.20" xbr="644.40" ybr="489.00" z_order="0">
     </box>
     <box frame="19031" outside="1" occluded="0" keyframe="1" xtl="620.10" ytl="447.20" xbr="644.40" ybr="489.00" z_order="0">
     </box>
   </track>
-  <track id="108" label="b_p" source="manual">
+  <track id="107" label="b_p" source="manual">
     <box frame="19273" outside="0" occluded="0" keyframe="1" xtl="791.80" ytl="400.17" xbr="816.90" ybr="460.80" z_order="0">
     </box>
     <box frame="19274" outside="1" occluded="0" keyframe="1" xtl="791.80" ytl="400.17" xbr="816.90" ybr="460.80" z_order="0">
     </box>
   </track>
-  <track id="109" label="b_cap" source="manual">
+  <track id="108" label="b_cap" source="manual">
     <box frame="19297" outside="0" occluded="0" keyframe="1" xtl="624.80" ytl="426.40" xbr="651.67" ybr="489.80" z_order="0">
     </box>
     <box frame="19298" outside="1" occluded="0" keyframe="1" xtl="624.80" ytl="426.40" xbr="651.67" ybr="489.80" z_order="0">
     </box>
   </track>
-  <track id="110" label="w_p" source="manual">
+  <track id="109" label="w_p" source="manual">
     <box frame="19458" outside="0" occluded="0" keyframe="1" xtl="576.60" ytl="443.63" xbr="600.00" ybr="485.83" z_order="0">
     </box>
     <box frame="19459" outside="1" occluded="0" keyframe="1" xtl="576.60" ytl="443.63" xbr="600.00" ybr="485.83" z_order="0">
     </box>
   </track>
-  <track id="111" label="w_cap" source="manual">
+  <track id="110" label="w_cap" source="manual">
     <box frame="19478" outside="0" occluded="0" keyframe="1" xtl="602.30" ytl="461.70" xbr="626.50" ybr="504.80" z_order="0">
     </box>
     <box frame="19479" outside="1" occluded="0" keyframe="1" xtl="602.30" ytl="461.70" xbr="626.50" ybr="504.80" z_order="0">
     </box>
   </track>
-  <track id="112" label="b_p" source="manual">
+  <track id="111" label="b_p" source="manual">
     <box frame="19944" outside="0" occluded="0" keyframe="1" xtl="624.70" ytl="426.40" xbr="651.83" ybr="489.80" z_order="0">
     </box>
     <box frame="19945" outside="1" occluded="0" keyframe="1" xtl="624.70" ytl="426.40" xbr="651.83" ybr="489.80" z_order="0">
     </box>
   </track>
-  <track id="113" label="b_cap" source="manual">
+  <track id="112" label="b_cap" source="manual">
     <box frame="19962" outside="0" occluded="0" keyframe="1" xtl="566.40" ytl="393.07" xbr="592.15" ybr="451.33" z_order="0">
     </box>
     <box frame="19963" outside="1" occluded="0" keyframe="1" xtl="566.40" ytl="393.07" xbr="592.15" ybr="451.33" z_order="0">
     </box>
   </track>
-  <track id="114" label="w_p" source="manual">
+  <track id="113" label="w_p" source="manual">
     <box frame="19974" outside="0" occluded="0" keyframe="1" xtl="529.63" ytl="382.17" xbr="560.30" ybr="450.00" z_order="0">
     </box>
     <box frame="19975" outside="1" occluded="0" keyframe="1" xtl="529.63" ytl="382.17" xbr="560.30" ybr="450.00" z_order="0">
     </box>
   </track>
-  <track id="115" label="w_cap" source="manual">
+  <track id="114" label="w_cap" source="manual">
     <box frame="19994" outside="0" occluded="0" keyframe="1" xtl="569.42" ytl="384.20" xbr="599.26" ybr="454.17" z_order="0">
     </box>
     <box frame="19995" outside="1" occluded="0" keyframe="1" xtl="569.42" ytl="384.20" xbr="599.26" ybr="454.17" z_order="0">
     </box>
   </track>
-  <track id="116" label="b_p" source="manual">
+  <track id="115" label="b_p" source="manual">
     <box frame="19998" outside="0" occluded="0" keyframe="1" xtl="710.60" ytl="446.00" xbr="737.57" ybr="501.54" z_order="0">
     </box>
     <box frame="19999" outside="1" occluded="0" keyframe="1" xtl="710.60" ytl="446.00" xbr="737.57" ybr="501.54" z_order="0">
     </box>
   </track>
-  <track id="117" label="b_cap" source="manual">
+  <track id="116" label="b_cap" source="manual">
     <box frame="20013" outside="0" occluded="0" keyframe="1" xtl="689.10" ytl="460.30" xbr="717.40" ybr="519.29" z_order="0">
     </box>
     <box frame="20014" outside="1" occluded="0" keyframe="1" xtl="689.10" ytl="460.30" xbr="717.40" ybr="519.29" z_order="0">
     </box>
   </track>
-  <track id="118" label="w_p" source="manual">
+  <track id="117" label="w_p" source="manual">
     <box frame="20196" outside="0" occluded="0" keyframe="1" xtl="486.40" ytl="388.81" xbr="513.52" ybr="444.40" z_order="0">
     </box>
     <box frame="20197" outside="1" occluded="0" keyframe="1" xtl="486.40" ytl="388.81" xbr="513.52" ybr="444.40" z_order="0">
     </box>
   </track>
-  <track id="119" label="w_c" source="manual">
+  <track id="118" label="w_c" source="manual">
     <box frame="20220" outside="0" occluded="0" keyframe="1" xtl="548.50" ytl="407.80" xbr="578.60" ybr="467.10" z_order="0">
     </box>
     <box frame="20221" outside="1" occluded="0" keyframe="1" xtl="548.50" ytl="407.80" xbr="578.60" ybr="467.10" z_order="0">
     </box>
   </track>
-  <track id="120" label="b_p" source="manual">
+  <track id="119" label="b_p" source="manual">
     <box frame="20257" outside="0" occluded="0" keyframe="1" xtl="768.50" ytl="419.60" xbr="799.40" ybr="492.54" z_order="0">
     </box>
     <box frame="20258" outside="1" occluded="0" keyframe="1" xtl="768.50" ytl="419.60" xbr="799.40" ybr="492.54" z_order="0">
     </box>
   </track>
-  <track id="121" label="b_cap" source="manual">
+  <track id="120" label="b_cap" source="manual">
     <box frame="20277" outside="0" occluded="0" keyframe="1" xtl="662.25" ytl="358.20" xbr="688.90" ybr="421.70" z_order="0">
     </box>
     <box frame="20278" outside="1" occluded="0" keyframe="1" xtl="662.25" ytl="358.20" xbr="688.90" ybr="421.70" z_order="0">
     </box>
+  </track>
+  <track id="121" label="c_a1" source="manual">
+    <points frame="20325" outside="0" occluded="0" keyframe="1" points="551.61,396.58" z_order="0">
+    </points>
+    <points frame="20326" outside="1" occluded="0" keyframe="1" points="551.61,396.58" z_order="0">
+    </points>
   </track>
   <track id="122" label="w_p" source="manual">
     <box frame="20378" outside="0" occluded="0" keyframe="1" xtl="544.79" ytl="360.39" xbr="575.50" ybr="436.80" z_order="0">
